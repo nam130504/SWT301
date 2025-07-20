@@ -1,0 +1,6 @@
+firstName,lastName,email,mobile,expectedResult
+John,Doe,john.doe@example.com,0912345678,success
+,Nguyen,jane.doe@example.com,0987654321,error
+Linh,,linh@example.com,0911111111,error
+Tom,Smith,tom.smith@example.com,abc123,error
+Anna,Lee,anna.lee@example,0912345678,error
