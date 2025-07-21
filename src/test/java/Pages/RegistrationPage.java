@@ -17,7 +17,7 @@ public class RegistrationPage extends BasePage {
     private final By successModal = By.id("example-modal-sizes-title-lg");
 
     public void navigate() {
-        navigateTo("https://demoqa.com/automation-practice-form");
+        navigateTo("https://apt3233.id.vn/login");
     }
 
     public void fillForm(String fName, String lName, String emailStr, String mobileStr) {

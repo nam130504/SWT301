@@ -11,13 +11,13 @@ import pages.RegistrationPage;
 import static org.junit.jupiter.api.Assertions.*;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-@DisplayName("DemoQA Registration Form Tests")
+@DisplayName("DemoAPT3233 Registration Form Tests")
 public class RegistrationTest extends BaseTest {
 
     static RegistrationPage regPage;
     static WebDriverWait wait;
 
-    @BeforeAll
+    @BeforeAll  
     static void initPage() {
         regPage = new RegistrationPage(driver);
         wait = new WebDriverWait(driver, java.time.Duration.ofSeconds(10));
